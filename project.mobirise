@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "בוריס גנן",
-    "currentPage": "page1.html",
+    "currentPage": "תמונות של העבודה ועוד.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -1400,7 +1400,7 @@
         }
       ]
     },
-    "page1.html": {
+    "תמונות של העבודה ועוד.html": {
       "settings": {
         "title": "תמונות של העבודה ועוד",
         "order": "1",
