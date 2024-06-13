@@ -96,6 +96,33 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
 }
+@media (min-width: 992px) and (max-width: 1400px) {
+  .display-1 {
+    font-size: 3.5rem;
+    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62))));
+  }
+  .display-2 {
+    font-size: 3.2rem;
+    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+  }
+  .display-4 {
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62))));
+  }
+  .display-5 {
+    font-size: 2rem;
+    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 62rem) / (87 - 62))));
+  }
+  .display-7 {
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+  }
+}
 /* Buttons */
 .btn {
   padding: 1.25rem 2rem;
@@ -728,6 +755,29 @@ body {
 a {
   transition: color 0.6s;
 }
+@media (max-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 .cid-u2M4NUl0LY {
   z-index: 1000;
   width: 100%;
@@ -957,7 +1007,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-u2M4NUl0LY .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.3rem);
+    max-height: calc(98.5vh - 5.7rem);
   }
 }
 .cid-u2M4NUl0LY .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1383,14 +1433,12 @@ a {
   margin-right: -1rem;
   margin-left: -1rem;
 }
-.cid-u2B3nmb2QA .row {
-  flex-direction: row-reverse;
-}
 .cid-u2B3nmb2QA .image-wrapper {
   padding: 0 1rem;
 }
 .cid-u2B3nmb2QA img,
 .cid-u2B3nmb2QA .image-wrapper {
+  filter: drop-shadow(5px 7px 5px #4ecca3) drop-shadow(5px 7px 5px #4ecca3);
   height: 700px;
   object-fit: cover;
 }
@@ -1900,7 +1948,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-u2M4NUl0LY .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.3rem);
+    max-height: calc(98.5vh - 5.7rem);
   }
 }
 .cid-u2M4NUl0LY .navbar.collapsed .dropdown-menu .dropdown-submenu {
