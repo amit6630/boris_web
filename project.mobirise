@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "בוריס גנן",
-    "currentPage": "index.html",
+    "currentPage": "תמונות של העבודה ועוד.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -63,14 +63,14 @@
     },
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "iimjghll8x",
+    "mbrsiteDomain": "qcohhbn0dt",
     "usedWebp": false,
     "cssOptimize": false,
-    "lazyLoad": false,
+    "lazyLoad": true,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://borisbagina.com/",
     "cookiesAlert": false,
     "gdpr": false,
     "chatbutton": {
@@ -1010,12 +1010,12 @@
           "_anchor": "article05-1",
           "_isUserblock": true,
           "_cid": "u2B3nmb2QA",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "_styles": {
@@ -1413,7 +1413,7 @@
     },
     "תמונות של העבודה ועוד.html": {
       "settings": {
-        "title": "תמונות של העבודה ועוד",
+        "title": "תמונות של העבודות גינון",
         "order": "1",
         "meta_descr": "-גינון ואחזקות בשרון-גנן מומלץ בשרון-גנן מומלץ בנתניה והסביבה \n-מחפש גינון בנתניה-בוריס בגינה-גינון ואחזקה באזור השרון-אחזקת גינות בנתניה-גנן בנתניה-גנן בשרון-גנן בנתניה-גנן בשרון\nגינון ואחזקות לגינות הם חלק חשוב מחיינו. גינה מטופחת תורמת לאסתטיקה של הבית, משפרת את איכות החיים ומספקת מקום מנוחה ובילוי.\n\nאנו מציעים שירותי גינון ואחזקות לגינות באזור השרון ונתניה. אנו עובדים עם לקוחות פרטיים ועסקיים, ומציעים מגוון רחב של שירותים, לרבות:\n\nעיצוב גינות\nהקמת גינות\nתחזוקת גינות\nטיפול בעצים\nטיפול בצמחייה\nטיפול בקרקע\nניסיון וידע:\n\nאנו בעלי ניסיון וידע רב בתחום הגינון. אנו עובדים עם צוות מקצועי ומיומן, אשר מיומן בטיפול בכל סוגי הגינות, קטנות כגדולות.\n\nאנו משתמשים בחומרי גלם איכותיים וציוד מתקדם, על מנת להבטיח את השירות הטוב ביותר ללקוחותינו.",
         "socialSharingUrl": ""
